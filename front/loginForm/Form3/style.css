@@ -24,7 +24,7 @@ body {
   margin-bottom: 30px;
 }
 
-#txt1 {
+.txt1 {
   width: 93%;
   color: white;
   border: 1px solid #1293de;
