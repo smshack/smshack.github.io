@@ -80,6 +80,9 @@
         if (inputs[0].value != '' && inputs[1].value) {
           $('.login-btn').attr('disabled', false);
           $('.login-btn').addClass('active');
+        } else {
+          $('.login-btn').attr('disabled', true);
+          $('.login-btn').removeClass('active');
         }
       });
     </script>
