@@ -5,10 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/6bdb89bed6.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <div class="login-form">
+      <div class="logo"><img src="images/img_0000_레이어-1.png" alt="" /></div>
+
+      <div class="social-media">
+        <button class="tiwiter">
+          <img src="images/img_0000_레이어-1.png" alt="" />
+        </button>
+        <button class="google">
+          <img src="images/img_0001_레이어-2.png" alt="" /></button
+        ><button class="fb">
+          <img src="images/img_0002_레이어-3.png" alt="" /></button
+        ><button class="insta">
+          <img src="images/img_0003_레이어-4.png" alt="" /></button
+        ><button class="line">
+          <img src="images/img_0004_레이어-5.png" alt="" />
+        </button>
+      </div>
+      <h6>Sign In</h6>
+      <form action="">
+        <div class="textbox">
+          <input type="text" placeholder="Username or email" />
+          <span class="check-message hidden">Required</span>
+        </div>
+        <div class="textbox">
+          <input type="password" placeholder="Password" />
+          <span class="check-message hidden">Required</span>
+        </div>
+
+        <div class="options">
+          <label class="remember-me">
+            <span class="checkbox">
+              <input type="checkbox" />
+              <span class="checked"></span>
+            </span>
+            Remember me
+          </label>
+          <a href="#">Forgot Your Password</a>
+        </div>
+        <input type="submit" value="Log In Now" class="login-btn" disabled />
+        <div class="privacy-link">
+          <a href="#">Privacy Policy</a>
+        </div>
+      </form>
+      <div class="dont-have-account">
+        Don't have an Epic Games account?
+        <a href="#">Sign up</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $('.textbox input').focusout(function () {
+        if ($(this).val() == '') {
+          $(this).siblings().removeClass('hidden');
+          $(this).css('background', '#554343');
+        } else {
+          $(this).siblings().addClass('hidden');
+          $(this).css('background', '#484848');
+        }
+      });
+
+      $('.textbox input').keyup(function () {
+        var inputs = $('.textbox input');
+        if (inputs[0].value != '' && inputs[1].value) {
+          $('.login-btn').attr('disabled', false);
+          $('.login-btn').addClass('active');
+        }
+      });
+    </script>
+  </body>
 </html>
