@@ -18,15 +18,15 @@ semantic_view.addEventListener('click', () => {
 });
 
 dis_view.addEventListener('click', () => {
-  window.scrollTo({ top: 834.3, left: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 843, left: 0, behavior: 'smooth' });
 });
 
 grid_view.addEventListener('click', () => {
-  window.scrollTo({ top: 834.3 + 927, left: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 843 + 937, left: 0, behavior: 'smooth' });
 });
 flex_view.addEventListener('click', () => {
-  window.scrollTo({ top: 834.3 + 927 * 2, left: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 843 + 937 * 2, left: 0, behavior: 'smooth' });
 });
 color_view.addEventListener('click', () => {
-  window.scrollTo({ top: 834.3 * 2 + 927 * 2, left: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 843 * 2 + 937 * 2, left: 0, behavior: 'smooth' });
 });
