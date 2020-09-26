@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1e6e7;
+  /* 스크롤바 없애기 */
+  -ms-overflow-style: none;
+  width: 100vw;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/* ---------------------------------------------------------------------- */
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background: #202c3b;
+  position: fixed;
+
+  color: white;
+  padding: 0 5vw 0 5vw;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  padding: 8px 12px;
+  background: #202c3b;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.navbar__menu li {
+  padding: 8px 12px;
+}
+.navbar__menu li:hover {
+  background: #d49466;
+  border-radius: 4px;
+}
+
+.navbar__icon {
+  list-style: none;
+  color: white;
+  list-style: none;
+  display: flex;
+}
+
+.navbar__icon li {
+  padding: 8px 12px;
+  font-size: 3vh;
+}
+.navbar__toogleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  top: 1vh;
+  font-size: 24px;
+  color: #d49466;
+}
+
+main {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 10vh;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(18, 15, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/* ---------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
+  main {
+    height: auto;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar__icon {
+    display: none;
+
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar__toogleBtn {
+    display: block;
+  }
+
+  .navbar__menu.active,
+  .navbar__icon.active {
+    display: flex;
+  }
+
+  .main1 {
+    background-color: #465973;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  aside:nth-child(1) {
+    display: none;
+  }
+  aside:nth-child(2) {
+    display: block;
+    width: 100vw;
+  }
+  h1 {
+    display: block;
+  }
+}

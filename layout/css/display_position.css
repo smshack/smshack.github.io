@@ -1,0 +1,79 @@
+.main2 {
+  background-color: #8bb6c4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.ch1 {
+  display: block;
+  background: green;
+  width: 40vw;
+  height: 65vh;
+}
+
+.ch1 div,
+.ch1 span {
+  width: 130px;
+  height: 130px;
+  margin: 20px;
+}
+
+.ch1 div {
+  background: red;
+}
+.ch1 div:nth-child(2) {
+  background: yellow;
+  display: inline-block;
+}
+.ch1 span {
+  background: blue;
+}
+
+.ch2 {
+  display: block;
+  background: green;
+  width: 40vw;
+  height: 65vh;
+}
+.ch2 div,
+.ch2 span {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+}
+.box1 {
+  background: red;
+  /* 기본값 */
+  position: static;
+}
+
+.box2 {
+  background: orange;
+  position: relative;
+  /* 원래 있어야 하는 자리에서 상대적으로 위치를 옮겨줄때 사용 */
+  left: 40px;
+  top: 40px;
+}
+
+.box3 {
+  background: blue;
+  /* 내 아이템과 가장 가까이 있는 박스 안에서 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.box4 {
+  background: gray;
+  /* 상자에서 벗어나서 페이지 상에서 위치 지정 */
+  position: fixed;
+}
+
+.box5 {
+  background: purple;
+  /* 원래 있어야 하는 자리에 있지만 스크롤링 해도 그 자리에 붙어 있다
+   */
+  position: sticky;
+}

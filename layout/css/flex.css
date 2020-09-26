@@ -1,0 +1,72 @@
+.main4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d8f0ed;
+  padding-top: 10vh;
+  display: flex;
+  /* 왼쪽에서 오른쪽으로 정렬 x축을 중심으로 row
+                            y축을 중심으로 colunm
+  */
+  /* flex-direction: row;
+
+  /* wrap을 하면 한줄에 꽉차면 다음 라인으로 넘어감
+    기본값은 nowrap 넘어가지 않고 작아짐
+  */
+  /* flex-wrap: nowrap;  */
+  /* 위에 두가지를 같이 사용 */
+  flex-flow: row wrap;
+  /* 중심축에서 아이템들을 어떻게 배치할 것인가?? 가로 */
+  justify-content: space-evenly;
+  /* 반대축에서 아이템을 어떻게 배치할 것인가?? 세로*/
+  align-items: baseline; /*텍스트를 기준으로 라인을 잡음*/
+  /* 반대축의 아이템을 배치 */
+  align-content: space-between;
+}
+.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.item1 {
+  background: #ffffff;
+  order: 2;
+  /* flex-grow: 1;
+    flex-shrink: 2; */
+  /* 아이템이 공간을 얼마나 차지해야 되는지 지정 */
+  flex-basis: 30%;
+  /* 아이템 별로 하나만 지정해서 align지정 */
+  align-self: center;
+}
+.item2 {
+  background: #ffebee;
+  order: 1;
+  flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 60%;
+}
+.item3 {
+  background: #ccb9bc;
+  order: 3;
+  flex-basis: 10%;
+}
+.item4 {
+  background: #ffffff;
+}
+.item5 {
+  background: #ffcdd2;
+}
+.item6 {
+  background: #cb9ca1;
+}
+.item7 {
+  background: #ffcccb;
+}
+.item8 {
+  background: #ba6b6c;
+}
+.item9 {
+  background: #ef9a9a;
+}
+.item10 {
+  background: #ffa4a2;
+}
