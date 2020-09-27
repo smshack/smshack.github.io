@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  text-align: center;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 50%;
+  height: 50%;
+  background-color: brown;
+}
+img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background: yellow;
+  z-index: 100;
+  will-change: opacity;
+}
+h1,
+h3,
+span {
+  color: white;
+  padding: 3vh;
+}

@@ -10,5 +10,38 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <section>
+      <img src="../../rabbits/img/rabbit.png" alt="rabbit" />
+      <h1 id="brand">명석아 공부하자</h1>
+      <h3>공부해 공부해 공부해 공부해</h3>
+    </section>
+    <span>일루와</span>
+    <span>일루와</span>
+    <span>일루와</span>
+
+    <script>
+      const img = document.querySelector(
+        'img[src="../../rabbits/img/rabbit.png"]'
+      );
+      console.log(img);
+      const span = document.querySelectorAll('span');
+      console.log(span);
+      // span[0].innerText = '변경된 텍스트';
+      // console.log(span);
+
+      const section = document.querySelector('section');
+      const h2 = document.createElement('h2');
+      h2.setAttribute('class', 'title');
+      h2.setAttribute('data-key', '제목');
+      h2.textContent = '이 부분은 제목입니다';
+
+      // section.appendChild(h2);
+      const h3 = document.querySelector('h3');
+      section.insertBefore(h2, h3);
+      //section.innerHTML = '<h1> 초기화 되었습니다 </h1>';
+
+      section.removeChild(h2);
+    </script>
+  </body>
 </html>
