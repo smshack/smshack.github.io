@@ -29,13 +29,36 @@
   text-decoration: none;
   font-weight: var(--base-weight);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  outline-style: none;
+}
+a {
+  color: var(--color-white);
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+button {
+  display: block;
+  float: right;
+  background: #5e5858;
+  font-size: 1.5vh;
+  padding: 1vh;
+  color: white;
+  border: none;
+  transform: translate(1.2vh, -1vh);
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+button:hover {
+  background-color: tomato;
 }
 body {
   height: 100vh;
   background-color: var(--color-light-grey);
 }
 header {
-  height: 20vh;
+  height: 15vh;
   background-color: var(--color-header);
   display: flex;
   flex-direction: column;
@@ -45,8 +68,12 @@ header {
   color: var(--color-white);
   font-weight: 1000;
 }
+header h1 {
+  font-weight: 1000;
+}
 nav {
   width: 100vw;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,17 +88,73 @@ nav li {
   transition: transform var(--annimation-duration) ease;
   font-weight: calc(var(--base-weight) * 2);
   color: var(--color-white);
+  height: 5vh;
 }
 nav li:hover {
   transform: scale(1.1);
 }
-
-main {
-  padding: 2vh 5vw 2vh 5vw;
-
-  text-decoration: none;
+nav li ul {
+  display: none;
 }
-main li {
-  padding: var(--base-space);
-  text-decoration: none;
+nav li:hover ul {
+  display: block;
+  transform: translate(0, 1vh);
+}
+
+nav li ul li {
+  width: auto;
+  height: 4vh;
+  background-color: var(--color-black);
+}
+main {
+  height: 80vh;
+  padding: 5vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.items {
+  width: 20vw;
+  height: auto;
+  overflow-y: auto;
+}
+.items::-webkit-scrollbar {
+  display: none;
+}
+
+.items li {
+  padding: 1.5vh;
+  border: 1px solid gray;
+  border-collapse: separate;
+  background-color: #3f454d;
+}
+
+.items li:hover {
+  background-color: #333;
+  color: white;
+}
+
+.items li a:hover {
+  background-color: tomato;
+  transform: scale(1.1);
+  height: 100%;
+}
+.items li a:nth-child(2) {
+  margin-left: 3vh;
+}
+.lec_container {
+  background-color: rgb(80, 87, 92);
+  width: 70vw;
+  height: auto;
+  padding: 2vh 2vh 2vh 4vh;
+}
+.lec_container h1 {
+  margin-bottom: 1vh;
+}
+
+.lec_container h1::before {
+  content: '⚪ ';
+}
+.lec_container hr {
+  margin-bottom: 3vh;
 }

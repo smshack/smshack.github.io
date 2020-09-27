@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="EUC-KR" />
+
+    <title>Insert title here</title>
+
+    <script type="text/javascript">
+      window.onload = function () {
+        btn_id.onclick = btnclick;
+      };
+
+      function btnclick() {
+        var message =
+          //이벤트의 종류
+
+          '<br/>이벤트 종류 : ' +
+          event.type +
+          '<br/>' +
+          //이벤트가 발생한 오브젝트 정보
+
+          '<br/>이벤트가 발생한 오브젝트 정보<br/>' +
+          'event.target : ' +
+          event.target +
+          '<br/>' +
+          'event.target.id : ' +
+          event.target.id +
+          '<br/>' +
+          'event.target.name : ' +
+          event.target.name +
+          '<br/>' +
+          'event.target.value : ' +
+          event.target.value +
+          '<br/>' +
+          'event.target.nodeType : ' +
+          event.target.nodeType +
+          '<br/>' +
+          'event.target.nodeName : ' +
+          event.target.nodeName +
+          '<br/>' +
+          'event.target.parentNode.nodeName : ' +
+          event.target.parentNode.nodeName +
+          '<br/>' +
+          'event.target.parentNode.id : ' +
+          event.target.parentNode.id +
+          '<br/>' +
+          'event.target.nextSibling.nextSibling.id : ' +
+          event.target.nextSibling.nextSibling.id +
+          '<br/>' +
+          'event.target.parentNode : ' +
+          event.target.parentNode +
+          '<br/>' +
+          'event.target.parentElement : ' +
+          event.target.parentElement +
+          '<br/>' +
+          'event.srcElement.value : ' +
+          event.srcElement.value +
+          ' ==> srcElement == target ( 브라우저에 따라 다름 )'; //srcElement == target ( 브라우저에 따라 다름 )
+
+        show(display_btn, message);
+      }
+
+      function keyclick() {
+        var message =
+          //이벤트의 종류
+
+          '<br/>이벤트 종류 <br/>' +
+          event.type +
+          '<br/>' +
+          event.keyCode +
+          '<br/>' +
+          event.which +
+          '<br/>';
+
+        show(message);
+      }
+
+      function show(where, message) {
+        where.innerHTML = message;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h4>이벤트의 대상 정보 출력 (event.target)</h4>
+
+    <div id="btndiv">
+      <input type="button" id="btn_id" name="btn_name" value="버튼01" />
+
+      <div id="display_btn"></div>
+    </div>
+
+    <div id="display"></div>
+  </body>
+</html>
