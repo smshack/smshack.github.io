@@ -3,74 +3,362 @@
     {
       "url": "loginForm/Form1/transparentLogin.html",
       "num": "1",
-      "type": "login-form",
+      "type": "login",
       "link": " https://www.youtube.com/watch?v=ooc6f1w6Mzg&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=1"
     },
     {
       "url": "loginForm/Form2/login.html",
       "num": "2",
-      "type": "login-form",
+      "type": "login",
       "link": " https://www.youtube.com/watch?v=dRhGk3bOmcI&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=2"
     },
     {
       "url": "loginForm/Form3/login.html",
       "num": "3",
-      "type": "login-form",
+      "type": "login",
       "link": " https://www.youtube.com/watch?v=QNEAcqjxHJs&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=3"
     },
     {
       "url": "loginForm/Form4/login.html",
       "num": "4",
-      "type": "login-form",
+      "type": "login",
       "link": "https://www.youtube.com/watch?v=ulPLaNzuexo&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=4"
     },
     {
       "url": "loginForm/Form5/login.html",
       "num": "5",
-      "type": "login-form",
+      "type": "login",
       "link": "https://www.youtube.com/watch?v=LheDIOnHRsk&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=5"
     },
     {
       "url": "loginForm/Form6/login.html",
       "num": "6",
-      "type": "login-form",
+      "type": "login",
       "link": "https://www.youtube.com/watch?v=HV7DtH3J2PU&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=7"
     },
     {
       "url": "loginForm/Form7/login.html",
       "num": "7",
-      "type": "login-form",
+      "type": "login",
       "link": "https://www.youtube.com/watch?v=fNX_fd9Tte0&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=8"
     },
     {
       "url": "loginForm/Form8/login.html",
       "num": "8",
-      "type": "login-form",
+      "type": "login",
       "link": "https://www.youtube.com/watch?v=ObWe1F-t0f4&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=9"
     },
     {
       "url": "loginForm/Form9/login.html",
       "num": "9",
-      "type": "login-form",
+      "type": "login",
       "link": " https://www.youtube.com/watch?v=ZvU57lTnNgo&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=10"
     },
     {
       "url": "loginForm/Form10/login.html",
       "num": "10",
-      "type": "login-form",
+      "type": "login",
       "link": " "
     },
     {
       "url": "loginForm/Form11/login.html",
       "num": "11",
-      "type": "login-form",
+      "type": "login",
       "link": " https://www.youtube.com/watch?v=W_t5MWHprYM&list=PL_t969ALyXzmVeBUfOYAZtyAvRbv6NnGw&index=11"
     },
     {
       "url": "loginForm/Form12/login.html",
       "num": "12",
-      "type": "login-form",
+      "type": "login",
       "link": " "
+    },
+    {
+      "url": "animation/form1/index.html",
+      "num": "1",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=BH_buraZc8I&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=1"
+    },
+    {
+      "url": "animation/form2/index.html",
+      "num": "2",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=NAy4R-xzKgw&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=2"
+    },
+    {
+      "url": "animation/form3/index.html",
+      "num": "3",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=zPOapXhuw0E&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=3"
+    },
+    {
+      "url": "animation/form4/index.html",
+      "num": "4",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=asX0kNKeXKU&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=4"
+    },
+    {
+      "url": "animation/form5/index.html",
+      "num": "5",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=GS4hFHqZlUQ&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=5"
+    },
+    {
+      "url": "animation/form6/index.html",
+      "num": "6",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=sv_1PvF1CZI&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=6"
+    },
+    {
+      "url": "animation/form7/index.html",
+      "num": "7",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=fw3fOHnzCjI&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=7"
+    },
+    {
+      "url": "animation/form8/index.html",
+      "num": "8",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=nfj8cooaPug&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=8"
+    },
+    {
+      "url": "animation/form9/index.html",
+      "num": "9",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=DY0Ob1_j5Ok&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=9"
+    },
+    {
+      "url": "animation/form10/index.html",
+      "num": "10",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=O3PW6Wpnpck&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=10"
+    },
+    {
+      "url": "animation/form11/index.html",
+      "num": "11",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=Syg_9iB1vco&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=11"
+    },
+    {
+      "url": "animation/form12/index.html",
+      "num": "12",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=QtDwAcHDVfw&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=12"
+    },
+    {
+      "url": "animation/form13/index.html",
+      "num": "13",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=NnrBempao2M&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=13"
+    },
+    {
+      "url": "animation/form14/index.html",
+      "num": "14",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=_LtUSfqu-Ng&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=14"
+    },
+    {
+      "url": "animation/form15/index.html",
+      "num": "15",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=FCPNN730c98&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=15"
+    },
+    {
+      "url": "animation/form16/index.html",
+      "num": "16",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=UOGEHkZLCDo&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=16"
+    },
+    {
+      "url": "animation/form17/index.html",
+      "num": "17",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=HpOi_tSMAoY&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=17"
+    },
+    {
+      "url": "animation/form18/index.html",
+      "num": "18",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=ixodBbIC2dQ&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=18"
+    },
+    {
+      "url": "animation/form19/index.html",
+      "num": "19",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=UTFatnsd0RI&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=19"
+    },
+    {
+      "url": "animation/form20/index.html",
+      "num": "20",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=mfF-_C0cNvE&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=20"
+    },
+    {
+      "url": "animation/form21/index.html",
+      "num": "21",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=tlv3fcBgLOs&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=21"
+    },
+    {
+      "url": "animation/form22/index.html",
+      "num": "22",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=OTlmenOLEow&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=22"
+    },
+    {
+      "url": "animation/form23/index.html",
+      "num": "23",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=tl_8rSlxPx4&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=23"
+    },
+    {
+      "url": "animation/form24/index.html",
+      "num": "24",
+      "type": "animation",
+      "link": "https://www.youtube.com//watch?v=-FUENcdcrvg&list=PL_t969ALyXzkgjxRYrgaBt_X6AbIrKre-&index=24"
+    },
+    {
+      "url": "loading/form1/index.html",
+      "num": "1",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=rTlKjdv67Ec&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=1"
+    },
+    {
+      "url": "loading/form2/index.html",
+      "num": "2",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=0_MMSXqbr44&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=2"
+    },
+    {
+      "url": "loading/form3/index.html",
+      "num": "3",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=rAwaHd1sfOQ&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=3"
+    },
+    {
+      "url": "loading/form4/index.html",
+      "num": "4",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=VwgI4nQYxHk&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=4"
+    },
+    {
+      "url": "loading/form5/index.html",
+      "num": "5",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=xSNlsSfvwac&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=5"
+    },
+    {
+      "url": "loading/form6/index.html",
+      "num": "6",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=QLiZ5VrhA98&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=6"
+    },
+    {
+      "url": "loading/form7/index.html",
+      "num": "7",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=6EtdWnbsbyA&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=7"
+    },
+    {
+      "url": "loading/form8/index.html",
+      "num": "8",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=TgwcGBOPAak&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=8"
+    },
+    {
+      "url": "loading/form9/index.html",
+      "num": "9",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=536IMcLjsmw&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=9"
+    },
+    {
+      "url": "loading/form10/index.html",
+      "num": "10",
+      "type": "loading",
+      "link": "https://www.youtube.com//watch?v=kWwDrJL9M-U&list=PL_t969ALyXzn29K--TTXblCD683IvnXLm&index=10"
+    },
+    {
+      "url": "effect/form1/index.html",
+      "num": "1",
+      "type": "effect",
+      "link": "https://www.youtube.com//watch?v=eNMgCFrAySg&list=PL_t969ALyXzlQeYwVyNSiUPRQyDYb8Jat&index=1"
+    },
+    {
+      "url": "effect/form2/index.html",
+      "num": "2",
+      "type": "effect",
+      "link": "https://www.youtube.com//watch?v=zkfJe3Hco14&list=PL_t969ALyXzlQeYwVyNSiUPRQyDYb8Jat&index=2"
+    },
+    {
+      "url": "effect/form3/index.html",
+      "num": "3",
+      "type": "effect",
+      "link": "https://www.youtube.com//watch?v=2jlHuL5Z5Ys&list=PL_t969ALyXzlQeYwVyNSiUPRQyDYb8Jat&index=3"
+    },
+    {
+      "url": "effect/form4/index.html",
+      "num": "4",
+      "type": "effect",
+      "link": "https://www.youtube.com//watch?v=oEpig4yfL4A&list=PL_t969ALyXzlQeYwVyNSiUPRQyDYb8Jat&index=4"
+    },
+    {
+      "url": "effect/form5/index.html",
+      "num": "5",
+      "type": "effect",
+      "link": "https://www.youtube.com//watch?v=lGUGjz4R4c8&list=PL_t969ALyXzlQeYwVyNSiUPRQyDYb8Jat&index=5"
+    },
+    {
+      "url": "button/form1/index.html",
+      "num": "1",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=alhLJOj3RQA&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=1"
+    },
+    {
+      "url": "button/form2/index.html",
+      "num": "2",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=1pBygSeH-TU&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=2"
+    },
+    {
+      "url": "button/form3/index.html",
+      "num": "3",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=g6Il0JIS4ds&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=3"
+    },
+    {
+      "url": "button/form4/index.html",
+      "num": "4",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=njJXNE-tSSI&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=4"
+    },
+    {
+      "url": "button/form5/index.html",
+      "num": "5",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=fDm0WJ_66d0&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=5"
+    },
+    {
+      "url": "button/form6/index.html",
+      "num": "6",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=q-WBhY_Iexc&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=6"
+    },
+    {
+      "url": "button/form7/index.html",
+      "num": "7",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=WESIes0U_ds&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=7"
+    },
+    {
+      "url": "button/form8/index.html",
+      "num": "8",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=a7PHhF5Vw5w&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=8"
+    },
+    {
+      "url": "button/form9/index.html",
+      "num": "9",
+      "type": "button",
+      "link": "https://www.youtube.com//watch?v=bXQ5HZnw93c&list=PL_t969ALyXzmUECUjmI39YfDCcsfaeG7G&index=9"
     }
   ]
 }
