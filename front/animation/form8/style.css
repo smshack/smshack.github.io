@@ -2,45 +2,92 @@ body {
   margin: 0;
   padding: 0;
   background: #f1f1f1;
+  font-family: sans-serif;
 }
-#btn {
-  width: 200px;
-  height: 60px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffc107;
-  cursor: pointer;
-  border-radius: 5px;
+.slider {
+  width: 100%;
+  height: 500px;
   overflow: hidden;
 }
-#btn:before {
-  color: white;
-  font-family: sans-serif;
-  content: 'Hover Me';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  transition: all 0.5s;
+.slide {
+  width: 500%;
+  overflow: hidden;
+  animation: slider 20s infinite;
 }
-#btn:hover:before {
-  top: -30px;
-}
-#btn:after {
-  font-family: 'Ionicons';
-  content: '\f141';
+.slide div {
+  width: 20%;
+  color: black;
   font-size: 40px;
-  color: #f44336;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 140%;
-  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 500px;
+  text-transform: uppercase;
 }
-#btn:hover:after {
-  top: 50%;
+.slide1 {
+  background: #e74c3c;
+}
+.slide2 {
+  background: #3498db;
+}
+.slide3 {
+  background: #2ecc71;
+}
+.slide4 {
+  background: #9b59b6;
+}
+.slide5 {
+  background: #2c3e50;
+}
+
+@keyframes slider {
+  0% {
+    margin-left: 0;
+  }
+  12% {
+    margin-left: -100%;
+  }
+  22% {
+    margin-left: -100%;
+  }
+  24% {
+    margin-left: -200%;
+  }
+  34% {
+    margin-left: -300%;
+  }
+  36% {
+    margin-left: -300%;
+  }
+  46% {
+    margin-left: -300%;
+  }
+  48% {
+    margin-left: -400%;
+  }
+  58% {
+    margin-left: -400%;
+  }
+  60% {
+    margin-left: -300%;
+  }
+  70% {
+    margin-left: -300%;
+  }
+  72% {
+    margin-left: -200%;
+  }
+  82% {
+    margin-left: -200%;
+  }
+  84% {
+    margin-left: -100%;
+  }
+  94% {
+    margin-left: -100%;
+  }
+  96% {
+    margin-left: 0;
+  }
 }
