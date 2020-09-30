@@ -1,46 +1,40 @@
-body {
+body{
   margin: 0;
   padding: 0;
-  background: #f1f1f1;
+  background: #000;
 }
-#btn {
-  width: 200px;
-  height: 60px;
+.container{
+  width: 120px;
+  height: 120px;
+  margin: 200px auto;
+  position: relative;
+  padding: 40px;
+}
+.sun{
+  width: 120px;
+  height: 120px;
+  background: url(sun.png) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.earth{
+  width: 40px;
+  height: 40px;
+  background: url(earth.png) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffc107;
-  cursor: pointer;
-  border-radius: 5px;
-  overflow: hidden;
+  top: 0;
+  left: 0;
+  box-shadow: 20px 20px 10px 2px #000000cc;
+  animation: ro 4s infinite;
 }
-#btn:before {
-  color: white;
-  font-family: sans-serif;
-  content: 'Hover Me';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  transition: all 0.5s;
-}
-#btn:hover:before {
-  top: -30px;
-}
-#btn:after {
-  font-family: 'Ionicons';
-  content: '\f141';
-  font-size: 40px;
-  color: #f44336;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 140%;
-  transition: all 0.5s;
-}
-#btn:hover:after {
-  top: 50%;
+@keyframes ro {
+  50%{
+    left: calc(100% - 40px);
+    top: calc(100% - 40px);
+  }
+  100%{
+    z-index: -1;
+  }
 }

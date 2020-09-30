@@ -1,46 +1,63 @@
-body {
+body{
   margin: 0;
   padding: 0;
-  background: #f1f1f1;
+  background: #34495e;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "montserrat",sans-serif;
 }
-#btn {
+
+.loading{
   width: 200px;
-  height: 60px;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border-top: 10px solid #e74c3c;
+  position: relative;
+  animation: a1 2s linear infinite;
+}
+
+.loading::before,.loading::after{
+  content: '';
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffc107;
-  cursor: pointer;
-  border-radius: 5px;
-  overflow: hidden;
+  left: 0;
+  top: -10px;
+  box-sizing: border-box;
+  border-radius: 50%;
 }
-#btn:before {
-  color: white;
-  font-family: sans-serif;
-  content: 'Hover Me';
+
+.loading::before{
+  border-top: 10px solid #e67e22;
+  transform: rotate(120deg);
+}
+
+.loading::after{
+  border-top: 10px solid #3498db;
+  transform: rotate(240deg);
+}
+
+.loading span{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  transition: all 0.5s;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+  animation: a2 2s linear infinite;
 }
-#btn:hover:before {
-  top: -30px;
+
+@keyframes a1 {
+  to{
+    transform: rotate(360deg);
+  }
 }
-#btn:after {
-  font-family: 'Ionicons';
-  content: '\f141';
-  font-size: 40px;
-  color: #f44336;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 140%;
-  transition: all 0.5s;
-}
-#btn:hover:after {
-  top: 50%;
+
+@keyframes a2 {
+  to{
+    transform: rotate(-360deg);
+  }
 }
