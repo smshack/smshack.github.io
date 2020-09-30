@@ -1,46 +1,48 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  background: #f1f1f1;
-}
-#btn {
-  width: 200px;
-  height: 60px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffc107;
-  cursor: pointer;
-  border-radius: 5px;
-  overflow: hidden;
-}
-#btn:before {
-  color: white;
   font-family: sans-serif;
-  content: 'Hover Me';
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(0deg, #3498db 50%, #fff 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.floating-text {
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: 1000;
+  letter-spacing: 10px;
+  color: #ffffff40;
+  transform: translateY(0);
+  animation: fl1 3s infinite linear;
+}
+
+.floating-text::before {
+  content: attr(data-text);
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  transition: all 0.5s;
+  color: #000;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+  animation: fl2 3s infinite linear;
 }
-#btn:hover:before {
-  top: -30px;
+
+@keyframes fl1 {
+  30% {
+    transform: translateY(10%) rotate(4deg);
+  }
+  70% {
+    transform: translateY(10%) rotate(-4deg);
+  }
 }
-#btn:after {
-  font-family: 'Ionicons';
-  content: '\f141';
-  font-size: 40px;
-  color: #f44336;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 140%;
-  transition: all 0.5s;
-}
-#btn:hover:after {
-  top: 50%;
+
+@keyframes fl2 {
+  30% {
+    clip-path: polygon(0 0, 100% 0, 100% 24%, 0 56%);
+  }
+  70% {
+    clip-path: polygon(0 0, 100% 0, 100% 56%, 0 24%);
+  }
 }

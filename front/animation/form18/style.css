@@ -1,46 +1,52 @@
 body {
   margin: 0;
   padding: 0;
-  background: #f1f1f1;
+  font-family: montserrat, sans-serif;
+  background: black;
 }
-#btn {
-  width: 200px;
-  height: 60px;
+.animatied-text {
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #ffc107;
-  cursor: pointer;
-  border-radius: 5px;
+  background: #2980b9;
+  padding: 0 40px;
+  height: 60px;
   overflow: hidden;
 }
-#btn:before {
-  color: white;
-  font-family: sans-serif;
-  content: 'Hover Me';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  transition: all 0.5s;
-}
-#btn:hover:before {
-  top: -30px;
-}
-#btn:after {
-  font-family: 'Ionicons';
-  content: '\f141';
+
+.line {
+  text-transform: uppercase;
+  text-align: center;
   font-size: 40px;
-  color: #f44336;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 140%;
-  transition: all 0.5s;
+  line-height: 60px;
 }
-#btn:hover:after {
-  top: 50%;
+
+.line:first-child {
+  animation: anim 12s infinite;
+}
+
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+  16% {
+    margin-top: -60px;
+  }
+  33% {
+    margin-top: -120px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  66% {
+    margin-top: -120px;
+  }
+  82% {
+    margin-top: -60px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
