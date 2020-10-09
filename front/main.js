@@ -19,6 +19,8 @@ function createHTMLString(item) {
     <button class="pre_view">미리보기</button>
   </li>`;
 }
+// 깃허브 연동이 잘 되나 확인을 해 봅시다.
+//ㅇㅁㄴㅇㄹㅁㄴㅇㄹ
 
 function displayItems(items) {
   const container = document.querySelector('.items');
